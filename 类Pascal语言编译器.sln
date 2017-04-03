@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类Pascal语言编译器", "类Pascal语言编译器\类Pascal语言编译器.vcxproj", "{241A47C6-30AF-42A7-AC9C-40E957A621D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{241A47C6-30AF-42A7-AC9C-40E957A621D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{241A47C6-30AF-42A7-AC9C-40E957A621D6}.Debug|Win32.Build.0 = Debug|Win32
+		{241A47C6-30AF-42A7-AC9C-40E957A621D6}.Release|Win32.ActiveCfg = Release|Win32
+		{241A47C6-30AF-42A7-AC9C-40E957A621D6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

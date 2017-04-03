@@ -1,0 +1,26 @@
+/* this is a pascal program 
+     coded by Isaac Guan    */
+sub alg3 (a as float, b as float, c as float)      //algorithm 3: find the maximum and minimum
+  begin
+    var max, min as float;,
+    if a>b and a>c then
+      begin
+        max=a;,
+        if b>c then min=c;
+        else min=b;
+      end,
+    if b>a and b>c then
+      begin
+        max=b;,
+        if a>c then min=c;
+        else min=a;
+      end,
+    if c>a and c>b then
+      begin
+        max=c;,
+        if b>a then min=a;
+        else min=b;
+      end,
+    output max,min;
+  end
+end sub

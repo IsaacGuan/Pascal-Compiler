@@ -1,0 +1,17 @@
+/* this is a pascal program 
+     coded by Isaac Guan    */
+sub alg2 (n as integer)          //algrorithm 2: Fibonacci sequence
+  begin
+    var $a1 as integer;, var $a2 as integer;, 
+    var i as integer;, var temp as integer;,
+    $a1=0;, $a2=1;, i=1;,
+    //print the first n terms of Fibonacci sequence
+    while i<=n do
+      begin
+        output $a1;,
+        temp=$a2;,
+        $a2=$a2+$a1;,
+        $a1=temp;
+      end,
+  end
+end sub

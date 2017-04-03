@@ -1,0 +1,15 @@
+/* this is a pascal program 
+     coded by Isaac Guan    */
+sub alg1 (a as integer, b as integer)          //algorithm 1: find gcd & lcm
+  begin
+    var gcd,lcm as integer;,
+    var m,n as integer;,
+    m=a;, n=b;,
+    /* Nicomachus' algorithm */
+    while a<>b do
+      if a>b then a=a-b;
+      else b=b-a;,
+    gcd=a;, lcm=m*n/a;,
+    output gcd,lcm;
+  end
+end sub

@@ -1,0 +1,24 @@
+sub test (a as float, b as float)      //test: it's a mess
+  begin
+    var a as integer;,      //error 1: a
+    i=100;,      //error 2: i
+    /* this is a pascal program
+            a test case         */
+    while i>0 and a<>b or a<>9.9 do      //error 3: i
+      begin
+        if a<b then a=d+((91.2-6)*19+24)/b*(28+a*50)*45;      //error 4: d
+        else
+          begin 
+            b=35.32;, a=1.9;
+          end,
+        if i==1 then a=b;      //error 5: i
+      end,
+    output a,b;
+  end
+end sub
+sub main      //main process
+  begin
+    var x,y as float;, input x,y;,
+    call test(x);      //error 6: test(x)
+  endd      //error 7: endd
+end sub
